@@ -203,29 +203,22 @@ int main() {
     return 0;
 }
 9). WAP to print following Pyramid.
-   #include <stdio.h>
+ #include <stdio.h>
 
 int main() {
-    int i, j;
-    for (i = 1; i <= 5; i++) {
+    int i, j, k, n = 5;  
+    for (i = 1; i <= n; i++) {
         for (j = 1; j <= i; j++) {
-            if (j % 2 == 1) {
-                printf("0");
-            } else {
-                printf("1");
-            }
+            printf("%d", j % 2);  
         }
-        printf(" ");
+        for (k = 1; k <= 2 * (n - i); k++) {
+            printf(" ");
+        }
         for (j = 1; j <= i; j++) {
-            if (j % 2 == 1) {
-                printf("0");
-            } else {
-                printf("1");
-            }
+            printf("%d", j % 2);  
         }
         printf("\n");
     }
-
     return 0;
 }
 10)WAP to print Pascal’s Triangle.
