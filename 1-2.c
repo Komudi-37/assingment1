@@ -1,4 +1,4 @@
-2). WAP to read two integers and print their HCF (Highest Common Factor)
+//2). WAP to read two integers and print their HCF (Highest Common Factor)
 #include<stdio.h>
 int main(){
     int n1,n2,i,hcf;
