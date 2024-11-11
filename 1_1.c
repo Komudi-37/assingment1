@@ -1,4 +1,4 @@
-1) WAP to check whether a given is Armstrong or not.
+//1) WAP to check whether a given is Armstrong or not.
 #include<stdio.h>  
  int main()    
 {    
