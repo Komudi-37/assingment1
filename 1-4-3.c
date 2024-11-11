@@ -1,4 +1,4 @@
-q4 3rd part
+//q4 3rd part
 #include<stdio.h>
 int main(){
     int a,b;
