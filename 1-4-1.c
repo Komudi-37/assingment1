@@ -1,6 +1,6 @@
-4)WAP to accept two integer numbers and swap them using 4 different methods in C 
+//4)WAP to accept two integer numbers and swap them using 4 different methods in C 
 language.
-1st 
+//1st part 
 #include<stdio.h>
 int main(){
     int a,b,x;
