@@ -1,5 +1,5 @@
 //4)WAP to accept two integer numbers and swap them using 4 different methods in C 
-language.
+//language.
 //1st part 
 #include<stdio.h>
 int main(){
